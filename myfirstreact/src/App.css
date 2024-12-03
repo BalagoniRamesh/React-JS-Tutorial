@@ -1,0 +1,39 @@
+.container {
+    border: 2px solid rgb(21, 0, 255); /* Adding border */
+    background-color: #fff; /* Adding background color */
+    padding: 10px; /* Adding padding */
+  }
+  
+  .para {
+    color: rgb(255, 4, 0); /* Adding text color */
+    font-style: italic; /* Adding italic style */
+  }
+  
+  .samplePicture {
+    width: 400px;
+    height: 400px;
+  }
+  
+  /*************/
+  .formSection {
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  .inputDiv input{
+    width: 15rem;
+    height: 2rem;
+  } 
+  .submitBtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: blue;
+  }
+  .formSection h2{
+    color: white;
+  }
+ 
